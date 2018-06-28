@@ -10,9 +10,9 @@ VR SHOPPING
 
 해당 코드의 설명은 "XMLTest"라는 이름의 Script안에 자세히 써져있으므로 참고하시기 바랍니다. (이 코드는 Assets/Script 폴더 안에 존재합니다.)
 
-해당 프로젝트는 몇몇 컴퓨터에서 UnityEngine.WWW.EscapeURL(toFind,System.Text.Encoding.GetEncoding("euc-kr"))를 사용하여도 EUC-KR로 인코딩이 변경되지 않는 문제점이 발견되었습니다.
+해당 프로젝트는 "개발 환경이 아닌 컴퓨터"에서 UnityEngine.WWW.EscapeURL(toFind,System.Text.Encoding.GetEncoding("euc-kr"))를 사용하여도 EUC-KR로 인코딩이 변경되지 않는 문제점이 발견되었습니다.
 
-이 문제점은 개발자 본인도 알 수 없으니 양해 부탁드립니다.
+현재 이 문제점은 개발자 본인도 알 수 없으니 양해 부탁드립니다. (1달 동안 문제점을 해결하기위해 애써봤지만 해결법을 찾을 수 없었습니다.)
 
 이 프로젝트는 개발 환경 문제상의 이유로 인해, VR 기기를 사용하는 것을 염두하고 개발하였지만, 컨트롤러가 없는 관계로 UI의 기능을 전혀 사용 할 수 없어
 
