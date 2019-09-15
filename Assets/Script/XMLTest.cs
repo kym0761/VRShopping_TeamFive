@@ -125,18 +125,19 @@ public class XMLTest : MonoBehaviour {
     {
         ServicePointManager.ServerCertificateValidationCallback = MyRemoteCertificateValidationCallback; //certification for unity must needed to read OPEN API
 
-        string api_toFind = api + key + apiCode + page + pageSize + keyword + UnityEngine.WWW.EscapeURL(toFind, System.Text.Encoding.GetEncoding("euc-kr")); // euc-kr
+        string api_toFind = api + key + apiCode + page + pageSize + keyword + UnityEngine.WWW.EscapeURL(toFind, System.Text.Encoding.GetEncoding("UTF-8")); // 11번가 UTF-8 지원.
 
-        //Debug.Log(api_toFind);//디버깅용
+        Debug.Log(api_toFind);//디버깅용
 
         WebRequest wrGetURL = WebRequest.Create(api_toFind);
 
-        using (StreamReader reader = new StreamReader(wrGetURL.GetResponse().GetResponseStream(), System.Text.Encoding.GetEncoding("euc-kr"), true))
+        using (StreamReader reader = new StreamReader(wrGetURL.GetResponse().GetResponseStream(), System.Text.Encoding.GetEncoding("EUC-KR"), true)) // 읽기는 EUC-KR로 읽어야 정상 작동
         {
             string xml = string.Empty;
+            
             Debug.Log(reader.CurrentEncoding);
             xml = reader.ReadToEnd();
-            //Debug.Log(name+"의 xml : " + xml);
+            Debug.Log(name+"의 xml : " + xml);
 
             XmlDocument doc = new XmlDocument();
 
