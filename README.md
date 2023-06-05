@@ -1,4 +1,4 @@
-# UOS Senier Project
+# UOS Senior Project
 
 VR SHOPPING
 
