@@ -8,7 +8,7 @@ VR SHOPPING
 
 프로젝트 개발 버전 : UnityEngine(Ver.2017.1.0p5) & VisualStudio 2017
 
-이 프로젝트는 E커머스 11번가 API를 받아서 DATA를 받아 유니티 월드상으로 구현하는 내용을 담고 있습니다.
+이 프로젝트는 E커머스 11번가 API를 통해 DATA를 받아 유니티 월드상으로 구현하는 내용을 담고 있습니다.
 
 해당 코드의 설명은 "XMLTest"라는 이름의 Script안에 자세히 써져있으므로 참고하시기 바랍니다. (이 코드는 Assets/Script 폴더 안에 존재합니다.)
 
@@ -70,8 +70,8 @@ VR SHOPPING
 
 # 시연 이미지
 
-<img src="ExplainImages/VRshop1.png" width="100%">
-<img src="ExplainImages/VRshop2.png" width="100%">
+<img src="ExplainImages/VRshop1.png" width="50%">
+<img src="ExplainImages/VRshop2.png" width="50%">
 
 # 주의
 
