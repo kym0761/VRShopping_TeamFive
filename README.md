@@ -1,6 +1,4 @@
-# UOS Senior Project
-
-VR SHOPPING
+# UOS Senior Project : VR SHOPPING
 
 이 프로젝트는 서울시립대 컴퓨터과학부 졸업 작품 VR SHOPPING 프로젝트입니다.
 
